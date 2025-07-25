@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy 5 Months!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffe4e6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      max-width: 400px;
+      position: relative;
+    }
+
+    h1 {
+      color: #db2777;
+      font-size: 2rem;
+      animation: bounce 1.2s infinite alternate;
+    }
+
+    p {
+      color: #374151;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    .reminder {
+      background: #fef3c7;
+      border-left: 5px solid #f59e0b;
+      padding: 1rem;
+      border-radius: 0.75rem;
+      font-weight: bold;
+      color: #b45309;
+    }
+
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+
+    .cat {
+      position: absolute;
+      bottom: -60px;
+      left: -40px;
+      width: 60px;
+      animation: floatCat 3s ease-in-out infinite;
+    }
+
+    .cat-right {
+      left: auto;
+      right: -40px;
+      animation-delay: 1.5s;
+    }
+
+    @keyframes floatCat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Happy 5 Months, Love! ❤️</h1>
+    <p>Cheers to 5 wonderful months of being together. Thank you for bringing so much love, laughter, and joy into my life. Here's to a happier, more joyful relationship ahead!</p>
+    <p>I can't wait to see you on our trip soon! 🌟</p>
+    <div class="reminder">
+      Reminder: Book the villa and car! 🚗🏡
+    </div>
+    <img class="cat" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Cat gif"/>
+    <img class="cat cat-right" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Cat gif"/>
+  </div>
+</body>
+</html>
